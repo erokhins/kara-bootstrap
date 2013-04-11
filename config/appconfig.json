@@ -5,5 +5,9 @@
          "publicDir": "public",
          "stylesheetDir": "stylesheets",
          "sessionDir": "tmp/sessions"
-     }
+     },
+    "bootstrap": {
+        "rootDir" : "public/bootstrap",
+        "css" : "css/bootstrap.min.css"
+    }
 }
