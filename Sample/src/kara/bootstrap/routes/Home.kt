@@ -7,7 +7,7 @@ import kara.*
 
 object Home {
 
-    Get("/") class Index() : Request({
+    Get("/") class BootstrapTestPage() : Request({
         BootstrapTestView(BootstrapLayout("Bootstrap page"))
     })
 

@@ -10,7 +10,7 @@ import kara.*
 class BootstrapTestView(layout : HtmlLayout? = null) : HtmlView(layout) {
     override fun render(context: ActionContext) {
         h1(c = text_center) {
-            +"Test page for Bootstrap lib for Kara"
+            +"Test page Bootstrap lib for Kara"
         }
 
         h3(c = text_info) {

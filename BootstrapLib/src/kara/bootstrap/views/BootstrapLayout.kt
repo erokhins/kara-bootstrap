@@ -15,7 +15,7 @@ class BootstrapLayout(val title : String) : HtmlLayout() {
     head {
         title(title)
         meta("viewport", "width=device-width, initial-scale=1.0")
-        link(DirectLink(context.appConfig["bootstrap.rootDir"] + '/' + context.appConfig["bootstrap.css"]), rel = "stylesheet",  mimeType = "text/css")
+        link(DirectLink("/bootstrap/css/bootstrap.min.css"), rel = "stylesheet",  mimeType = "text/css")
     }
     body {
         renderView(context, mainView)
