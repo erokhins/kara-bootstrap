@@ -1,0 +1,9 @@
+
+{
+     "kara": {
+         "appPackage": "kara.bootstrap",
+         "publicDir": "public",
+         "stylesheetDir": "stylesheets",
+         "sessionDir": "tmp/sessions"
+     }
+}
