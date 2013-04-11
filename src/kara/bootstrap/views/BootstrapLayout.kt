@@ -1,4 +1,4 @@
-package kara.bootstrap
+package kara.bootstrap.views
 
 import kara.HTML
 import kara.HtmlLayout
@@ -10,7 +10,7 @@ import kara.DirectLink
 * @author Stanislav Erokhin
 */
 
-class BootStrapLayout(val title : String) : HtmlLayout() {
+class BootstrapLayout(val title : String) : HtmlLayout() {
     override fun HTML.render(context: ActionContext, mainView: HtmlView) {
     head {
         title(title)

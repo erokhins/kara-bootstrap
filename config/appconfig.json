@@ -7,7 +7,7 @@
          "sessionDir": "tmp/sessions"
      },
     "bootstrap": {
-        "rootDir" : "public/bootstrap",
+        "rootDir" : "/bootstrap",
         "css" : "css/bootstrap.min.css"
     }
 }
