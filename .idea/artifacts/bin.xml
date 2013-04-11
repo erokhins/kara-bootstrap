@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="bin">
+    <output-path>$PROJECT_DIR$/bin</output-path>
+    <root id="root">
+      <element id="module-output" name="BootstrapLib" />
+      <element id="module-output" name="Sample" />
+    </root>
+  </artifact>
+</component>

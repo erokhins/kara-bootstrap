@@ -11,6 +11,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="KotlinRuntime" level="project" />
     <orderEntry type="library" name="KaraLib" level="project" />
+    <orderEntry type="module" module-name="BootstrapLib" />
+    <orderEntry type="library" name="KaraExec" level="project" />
   </component>
 </module>
 
