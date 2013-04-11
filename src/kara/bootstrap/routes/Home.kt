@@ -6,9 +6,9 @@ import kara.bootstrap.views.home.*
 import kara.*
 
 object Home {
-    val layout = DefaultLayout()
+
     Get("/") class Index() : Request({
-        IndexView()
+        BootstrapTestView(BootstrapLayout("Bootstrap page"))
     })
 
 }
