@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Launcher/Launcher.iml" filepath="$PROJECT_DIR$/Launcher/Launcher.iml" />
       <module fileurl="file://$PROJECT_DIR$/kara.bootstrap.iml" filepath="$PROJECT_DIR$/kara.bootstrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/style-name-generator/style.name.generator.iml" filepath="$PROJECT_DIR$/style-name-generator/style.name.generator.iml" />
     </modules>
   </component>
 </project>
