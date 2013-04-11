@@ -5,7 +5,7 @@ import kara.*
 import kara.bootstrap.styles.*
 
 class DefaultLayout() : HtmlLayout() {
-    override fun render(context: ActionContext, mainView: HtmlView) {
+    override fun HTML.render(context: ActionContext, mainView: HtmlView) {
         head {
             title("Kara App")
             stylesheet(DefaultStyles())
