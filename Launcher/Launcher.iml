@@ -9,6 +9,7 @@
     <orderEntry type="library" name="KaraExec" level="project" />
     <orderEntry type="library" name="KaraLib" level="project" />
     <orderEntry type="module" module-name="kara.bootstrap" scope="PROVIDED" />
+    <orderEntry type="module" module-name="BootstrapLib" />
   </component>
 </module>
 
