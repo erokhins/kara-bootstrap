@@ -11,5 +11,8 @@ object Home {
         BootstrapTestView(BootstrapLayout("Bootstrap page"))
     })
 
+    Get("/newtag") class NewTag() : Request({
+        NewTagTestView(BootstrapLayout("Bootstrap new tag"))
+    })
 }
 
