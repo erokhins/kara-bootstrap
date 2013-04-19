@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="cpClass">
+    <output-path>$PROJECT_DIR$/bin</output-path>
+    <root id="root">
+      <element id="module-output" name="BootstrapLib" />
+      <element id="library" level="project" name="KotlinRuntime" />
+      <element id="library" level="project" name="KaraLib" />
+      <element id="module-output" name="kara.bootstrap" />
+    </root>
+  </artifact>
+</component>
